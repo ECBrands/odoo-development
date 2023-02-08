@@ -7,11 +7,13 @@
 		<field name="model">res.partner</field>
 		<field name="inherit_id" ref="base.view_partner_form"/>
 		<field name="arch" type="xml">
+<!--
 			<field name="company_registry" position="attributes">
-				<attribute name="readonly">1</attribute>
+				<attribute name="editable">1</attribute>
 			</field>
+-->
 			<xpath expr="//h1" position="after">
-				<field name="company_registry" nolabel="1" editable="1"/>
+				<field name="company_registry" nolabel="1" readonly="1"/>
 			</xpath>
 		</field>
 	</record>
