@@ -8,7 +8,7 @@
     "depends": ["l10n_us_check_printing"],
     "installable": True,
     'data': [
-        "report/print_check_bottom.xml",
+        'report/print_check_bottom.xml',
         'views/res_company_view.xml',
 		'views/res_partner_view.xml'
     ],
