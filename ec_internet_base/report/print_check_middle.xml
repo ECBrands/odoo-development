@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<odoo>
+
+    <template id="print_check_middle_ecinternet" inherit_id="l10n_us_check_printing.print_check_middle">
+        <xpath expr="//div/t[@t-call][last()]" position="after">
+            <div class="check_sign" style="top: 9.9in; position: absolute;">
+                <img src="/ec_internet_base/ec_internet_base/static/scr/img/signature-David-Harris-transparent.png" class="float-right" style="width: 300px; height: auto;"/>
+            </div>
+        </xpath>
+    </template>
+</odoo>

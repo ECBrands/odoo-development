@@ -9,7 +9,8 @@
     "installable": True,
     'data': [
         'report/print_check_bottom.xml',
+        'report/print_check_middle.xml',
         'views/res_company_view.xml',
-		'views/res_partner_view.xml'
+        'views/res_partner_view.xml'
     ],
 }
