@@ -2,7 +2,7 @@
 <odoo>
     <template id="ckus_ecinternet" inherit_id="l10n_us_check_printing.ckus_check">
         <xpath expr="//div[@class='ckus_amount_in_word']" position="after">
-            <br/>
+            <p/>
         </xpath>
     </template>
 </odoo>
