@@ -1,0 +1,31 @@
+.ckus_bottom_page {
+    .ckus_amount_in_word {
+        top: 1.47in;
+        left: 0.25in;
+        width: 7in;
+        text-align: left;
+        font-weight: bold;
+        overflow: hidden;
+    }
+    .ckus_signatures {
+        top: 1.65in;
+        left: 0.05in;
+        width: 4in;
+        text-align: left;
+        font-weight: bold;
+        overflow: hidden;
+    }
+    .ckus_payee_addr {
+        top: 1.85in;
+        left: 1in;
+        line-height: 1.1em;
+    }
+    .ckus_memo {
+        top: 2.45in;
+        left: 0.6in;
+        width: 2.9in;
+        text-align: left;
+        font-size: 0.9em;
+        overflow: hidden;
+    }
+}
