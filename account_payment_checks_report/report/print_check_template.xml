@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="ckus_check_inherit_signature" inherit_id="l10n_us_check_printing.ckus_check">
+        <xpath expr="//div[hasclass('ckus_amount_in_word')]" position="after">
+            <div class="ckus_signatures">
+            </div>
+        </xpath>
+    </template>
+</odoo>

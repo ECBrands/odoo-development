@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="report_invoice_document_teplate_inherit" inherit_id="account.report_invoice_document">
+        <xpath expr="//div[@name='comment']" position="after">
+            <div t-if="not is_html_empty(o.internal_note)" name="note" style="margin-top:10px;">
+                <span t-field="o.internal_note"/>
+            </div>
+        </xpath>
+    </template>
+</odoo>
