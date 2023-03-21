@@ -11,17 +11,17 @@
 
 {
     'name': 'EC Subscription Customs',
-    'version': '16.0.1.0.0',
+    'version': '16.0.1.0.1',
     'sequence': 12,
     'summary': 'EC Subscription Customs',
     'category': 'Sales',
     'website': '',
     'depends': [
         'account_move_customs',
-        'sale_subscription'
+        'sale_subscription',
+        'sale_temporal',
     ],
     'data': [
-        'views/sale_subscription_views.xml'
     ],
     'installable': True,
     'license': 'LGPL-3',
