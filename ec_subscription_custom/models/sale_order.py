@@ -8,7 +8,7 @@ from odoo import fields, models
 class SaleOrder(models.Model):
     _inherit = "sale.order"
 
-    internal_note = fields.Html(string="Internal Note")
+    internal_note = fields.Html(string="Customer Note")
 
     def _prepare_invoice(self):
         """Override: Prepare Invoice Lines
