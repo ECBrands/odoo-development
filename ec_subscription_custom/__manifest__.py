@@ -11,7 +11,7 @@
 
 {
     'name': 'EC Subscription Customs',
-    'version': '16.0.1.0.1',
+    'version': '16.0.1.0.2',
     'sequence': 12,
     'summary': 'EC Subscription Customs',
     'category': 'Sales',
@@ -22,6 +22,7 @@
         'sale_temporal',
     ],
     'data': [
+        'views/sale_order_views.xml'
     ],
     'installable': True,
     'license': 'LGPL-3',
