@@ -11,7 +11,7 @@
 
 {
     'name': 'EC Subscription Customs',
-    'version': '16.0.1.0.2',
+    'version': '16.0.1.0.3',
     'sequence': 12,
     'summary': 'EC Subscription Customs',
     'category': 'Sales',
