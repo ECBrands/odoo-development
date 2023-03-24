@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo, Aktiv Software.
+# Part of Odoo, EC Internet, Aktiv Software.
 # See LICENSE file for full copyright & licensing details.
 
 # Author: Aktiv Software PVT. LTD.
