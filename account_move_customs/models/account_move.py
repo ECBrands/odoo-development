@@ -8,4 +8,4 @@ from odoo import fields, models
 class AccountMove(models.Model):
     _inherit = "account.move"
 
-    internal_note = fields.Html('Note')
+    customer_note = fields.Html('Customer Note')

@@ -11,7 +11,7 @@
 
 {
     'name': 'EC Subscription Customs',
-    'version': '16.0.1.0.3',
+    'version': '16.0.1.0.4',
     'sequence': 12,
     'summary': 'EC Subscription Customs',
     'category': 'Sales',
@@ -19,7 +19,6 @@
     'depends': [
         'account_move_customs',
         'sale_subscription',
-        'sale_temporal',
     ],
     'data': [
         'views/sale_order_views.xml'

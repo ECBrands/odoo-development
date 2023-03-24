@@ -8,7 +8,7 @@ from odoo import fields, models
 class SaleOrder(models.Model):
     _inherit = "sale.order"
 
-    internal_note = fields.Html(string="Customer Note")
+    customer_note = fields.Html(string="Customer Note")
 
     def _prepare_invoice(self):
         """Override: Prepare Invoice Lines
@@ -18,5 +18,5 @@ class SaleOrder(models.Model):
        :return: Super Call with updated res.
        """
         res = super(SaleOrder, self)._prepare_invoice()
-        res['internal_note'] = self.internal_note
+        res['customer_note'] = self.customer_note
         return res
