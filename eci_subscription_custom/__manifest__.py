@@ -10,14 +10,14 @@
 #     - Isufi Kapasi
 
 {
-    'name': 'EC Subscription Customs',
-    'version': '16.0.1.0.4',
+    'name': 'EC Internet Subscription Customs',
+    'version': '16.0.1.0.0',
     'sequence': 12,
-    'summary': 'EC Subscription Customs',
+    'summary': 'Subscription Customs',
     'category': 'Sales',
     'website': '',
     'depends': [
-        'account_move_customs',
+        'eci_account_customs',
         'sale_subscription',
     ],
     'data': [

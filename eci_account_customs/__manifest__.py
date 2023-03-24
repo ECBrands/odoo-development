@@ -10,10 +10,10 @@
 #     - Isufi Kapasi
 
 {
-    'name': 'EC Internet Account Move Customs',
-    'version': '16.0.1.0.1',
+    'name': 'EC Internet Account Customs',
+    'version': '16.0.1.0.0',
     'sequence': 12,
-    'summary': 'Account Move Customs',
+    'summary': 'Account Customs',
     'category': 'Accounting',
     'website': 'https://www.odoo.com/app/invoicing',
     'depends': [

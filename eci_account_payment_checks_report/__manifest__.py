@@ -10,8 +10,8 @@
 #     - Isufi Kapasi
 
 {
-    'name': 'ECInternets Check Customisations',
-    'version': '1.2',
+    'name': 'EC Internet Check Customisations',
+    'version': '16.0.1.0.0',
     'summary': 'Invoice report',
     'sequence': 12,
     'description': "A",
